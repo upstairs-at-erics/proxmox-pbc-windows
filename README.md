@@ -1,6 +1,13 @@
 # Proxmox Backup Client on Windows - Example Script
 
-DynoBIO is a simple RESTful API built with **Django** and **Django REST Framework (DRF)**. It serves as a centralized management system to maintain and serve dynamic profile and biographical data, allowing for dynamic updates to portfolio data, career history, and technical skills.
+**Proxmox Backup Server (PBS)** is A dedicated linux backup appliance that stores encrypted, deduplicated, incremental file backups from clients.
+
+**Proxmox Backup Client (PBC)** is a command line tool that sends backups to a PBS server over a network.  
+There is no official Windows PBC, but the community has provided a Go‑language re‑implementation of the official Proxmox Backup Client (PBC), compiled as a single native Windows executable.  
+It speaks the same API as Proxmox Backup Server (PBS), uses the same encryption model, and produces fully compatible backup snapshots.
+
+Thisx is a script wrapper for `proxmoxbackupclientgo` that can be readily fired from a scheduler tool.
+
 
 ## Prerequisites
 
