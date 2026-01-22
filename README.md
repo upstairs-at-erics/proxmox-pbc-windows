@@ -1,6 +1,6 @@
 # Proxmox Backup Client on Windows - Example Script
 
-**Proxmox Backup Server (PBS)** is A dedicated linux backup appliance that stores encrypted, deduplicated, incremental file backups from clients.
+**Proxmox Backup Server (PBS)** is a dedicated linux backup appliance that stores encrypted, deduplicated, incremental file backups from clients.
 
 **Proxmox Backup Client (PBC)** is a command line tool that sends backups to a PBS server over a network.  
 There is no official Windows PBC, but the community has provided a Go‑language re‑implementation of the official Proxmox Backup Client (PBC), compiled as a single native Windows executable.  
