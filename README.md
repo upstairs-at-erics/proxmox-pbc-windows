@@ -6,7 +6,7 @@
 There is no official Windows PBC, but the community has provided a Go‑language re‑implementation of the official Proxmox Backup Client (PBC), compiled as a single native Windows executable.  
 It speaks the same API as Proxmox Backup Server (PBS), uses the same encryption model, and produces fully compatible backup snapshots.
 
-Thisx is a script wrapper for `proxmoxbackupclientgo` that can be readily fired from a scheduler tool.
+This is a script wrapper for `proxmoxbackupclientgo` that can be readily fired from a scheduler tool.
 
 
 ## Prerequisites
